@@ -10,7 +10,7 @@ The renderer can be controlled by the mouse, allowing you to interact with the s
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/3d-renderer.git
+   git clone https://github.com/rashid-360/3d-renderer.git
    ```
 2.  **Navigate to the project directory:**
    ```
