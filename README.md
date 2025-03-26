@@ -1,35 +1,44 @@
+# 3D Renderer
 
+This project implements a 3D renderer using 3D geometry equations. It can render various shapes by defining their coordinates mathematically. The renderer simulates a 3D effect by repeatedly printing characters on the console.
 
-# 3D-renderer
- Built using 3D geometry equations, it can render a variety of shapes as long as their co-ordinates  are defined mathematically. 
+**Key Features:**
 
-The renderer can be controlled by the mouse, allowing you to interact with the shapes in real-time. It works by repeatedly printing characters on the console to simulate the 3D effect.
+* **Mathematical Shape Rendering:** Renders 3D shapes based on coordinate definitions.
+* **Real-time Interaction:** Allows interactive control of the shapes using the mouse.
+* **Console-based Rendering:** Simulates 3D visualization by character printing.
 
-## Running Steps
+## Running Instructions
 
-1. **Clone the repository:**
+1.  **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/rashid-360/3d-renderer.git  
-   ```
-2.  **Navigate to the project directory:**
-   ```
-   cd 3d-renderer
-   ```
-3.  **to render cube**
-   ```
-   python3 cube.py
-   ```
-   ![image](https://github.com/user-attachments/assets/d511e671-406d-402c-9cbf-78793a07f075)
-
-
-
-4.  **to render 3D model**
+    ```bash
+    git clone [https://github.com/rashid-360/3d-renderer.git](https://github.com/rashid-360/3d-renderer.git)
     ```
+
+2.  **Navigate to the Project Directory:**
+
+    ```bash
+    cd 3d-renderer
+    ```
+
+3.  **Render a Cube:**
+
+    ```bash
+    python3 cube.py
+    ```
+
+    ![Cube Rendering](https://github.com/user-attachments/assets/d511e671-406d-402c-9cbf-78793a07f075)
+
+4.  **Render a 3D Model (Pikachu):**
+
+    ```bash
     python3 pickachu.py
     ```
-   ![image](https://github.com/user-attachments/assets/865b4873-4067-415a-93c4-db70d7309db3)
 
-These can be rotated by mouse 
+    ![Pikachu Rendering](https://github.com/user-attachments/assets/865b4873-4067-415a-93c4-db70d7309db3)
 
+**Note:**
 
+* The rendered shapes can be rotated using mouse input.
+* The project leverages console-based character rendering to create the 3D illusion.
